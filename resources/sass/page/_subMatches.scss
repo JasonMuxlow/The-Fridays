@@ -1,0 +1,113 @@
+// wrapper is for the cover image
+.wrapper{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.wrapper-dota{
+
+  background: url("../../../public/images/_dota-subpage-wallpaper.jpeg");
+  width: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper-csgo{
+
+  background: url("../../../public/images/_csgo-subpage-wallpaper.jpeg");
+  width: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper-lol{
+
+  background: url("../../../public/images/_league-subpage-wallpaper.jpeg");
+  width: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.wrapper-cod{
+
+  background: url("../../../public/images/_cod-subpage-background.jpeg");
+  width: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper-valorant{
+
+  background: url("../../../public/images/_valorant-subpage-wallpaper.jpeg");
+  width: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper-creators{
+
+  background: url("../../../public/images/_creators-subpage-wallpaper.jpeg");
+  width: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/// title on cover img
+.head-title {
+  color: $jason-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+// applies a fade
+.content{
+  position: relative;
+  padding-top: 20%;
+  display: block;
+  background: radial-gradient(circle at 50% 0,rgba(40,44,56,.001) 0,rgba(40,44,56,.9) 100%,#282c38 100%);
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.05);
+  }
+  75% {
+    transform: scale(0.95);
+  }
+}.card-img-top{
+  height: 100%;
+ }
+
+
+.card{
+  background-color: $jason-blue;
+  border: 2px solid $jason-white;
+  color: $jason-white;
+  text-align: center;
+  align-items: stretch;
+  height: 100%;
+
+  &:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+
+}
+

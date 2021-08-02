@@ -1,0 +1,158 @@
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  color: $jason-white;
+  background-color: $jason-blue;
+  min-height: 100vh;
+  margin-left: 0;
+  width: 20rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  //position: relative;
+  border-right: 2px solid $jason-white;
+  overflow: hidden;
+
+  // each menu item
+
+  //TODO: MAKE SIDEBAR BUTTONS HOVER EFFECT THE FULL BLOCK
+
+  .accordion-body {
+    color: $jason-white;
+    background-color: $jason-blue;
+    padding: 0;
+
+  }
+
+  div {
+    .accordion-item {
+      color: $jason-white;
+      background-color: $jason-blue;
+    }
+
+    .accordion-button {
+      color: $jason-white;
+      background-color: $jason-blue;
+    }
+
+    /// when you hover the listed items it just give you an underline to show your there
+    li:hover {
+      text-decoration: underline;
+    }
+
+
+    a {
+      width: 15rem;
+      //background: transparent;
+      color: $jason-white;
+      background-color: $jason-blue;
+      position: relative;
+      padding: 0;
+    }
+
+    button, {
+      height: 5rem;
+      width: 15rem;
+      //background: transparent;
+      color: $jason-white;
+      background-color: $jason-blue;
+      text-align: center;
+      padding: 0;
+      justify-content: center;
+      margin-bottom: 5%;
+
+
+      &:hover {
+        background-color: $jason-white;
+        color: $jason-blue;
+
+      }
+
+      span {
+        display: inline-block;
+      }
+    }
+  }
+
+  @include media-breakpoint-down("sm", $grid-breakpoints) {
+    display: none;
+
+
+    #page-content-wrapper {
+      display: block;
+    }
+  }
+}
+
+
+//below is a failed venture
+
+//.shop_sidenav {
+//  height: 100vh;
+//  width: 15rem;
+//  max-width: 15%;
+//  background-color: $jason-blue;
+//  color: $jason-white;
+//  border-right: 2px solid $jason-white;
+//
+//  .nav-item {
+//    min-height: 10vh;
+//  }
+
+//.nav-link {
+//    background: $jason-blue ;
+//    color: $jason-white;
+//
+//  }
+//}
+
+
+//.sidebar {
+//  margin: 0;
+//  padding: 0;
+//  width: 10%;
+//  background-color: $jason-blue;
+//  //position: page;
+//  //height: 100%;
+//  //overflow: auto;
+//  border-right: 2px solid $jason-white;
+//
+//  div.content {
+//    margin-left: 200px;
+//    padding: 1px 16px;
+//    height: 100%;
+//  }
+//}
+//
+//.sidebar a {
+//  display: block;
+//  color: $jason-white;
+//  padding: 16px;
+//  text-decoration: none;
+//
+//  &:hover{
+//    color: $jason_blue;
+//    background-color: $jason_white;
+//  }
+//}
+//
+//@media screen and (max-width: 700px) {
+//  .sidebar {
+//    width: 100%;
+//    height: auto;
+//    position: relative;
+//  }
+//  .sidebar a {float: left;}
+//  div.content {margin-left: 0;}
+//}
+//
+//@media screen and (max-width: 400px) {
+//  .sidebar a {
+//    text-align: center;
+//    float: none;
+//  }
+//}
+

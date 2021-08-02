@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer{
+
+  border-top:  2px solid $jason-white;
+  //position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  p{
+    font-size: 12px;
+
+  }
+
+  .row{
+    justify-content: center;
+    text-align: center;
+  }
+
+
+}

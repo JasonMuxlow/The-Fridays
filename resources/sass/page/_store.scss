@@ -1,0 +1,105 @@
+#page-content-wrapper{
+  min-width: 0;
+  width:100%;
+}
+
+.form-control{
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+
+.pagination{
+  padding-left: 2%;
+}
+
+/// had to give the shop wrapper the grid auto col because i couldnt use the row class
+.shop-wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  grid-auto-columns: auto;
+  width: 100%;
+}
+
+.shop-button-wrapper{
+  background-color: $jason-blue;
+  border: 2px solid $jason-white;
+  color: $jason-white;
+  width: 97%;
+  border-radius: 8px;
+  height: 200px;
+  justify-content: center;
+}
+
+///25% width as i have extra margins and things
+.grid-view-shop {
+  width: 32%;
+  text-align: center;
+  padding: 10px;
+
+  height: 500px;
+  min-width: 150px;
+  margin: 0 8px 8px 0; /* Some gutter */
+  background-color: $jason-blue;
+  border: 2px solid $jason-white;
+  color: $jason-white;
+  overflow: auto;
+  border-radius: 8px;
+
+  &:hover{
+    background-color: $jason-black;
+  }
+}
+
+/// my store items should go into 1 block in mobile
+@media only screen and (max-width: 600px) {
+  .store-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .store-item {
+    width: 100%;
+  }
+}
+
+//
+//.list-view-shop {
+//  width: 100%;
+//  text-align: center;
+//  padding: 10px;
+//
+//  height: 250px;
+//  min-width: 150px;
+//  margin: 0 8px 8px 0; /* Some gutter */
+//  border: 2px solid $jason-white;
+//  background-color: $jason-blue;
+//  overflow: auto;
+//}
+//
+//.masonry-view-shop {
+//  display: flex;
+//  flex-flow: row wrap;
+//  width: 100%;
+//  justify-content: center;
+//  text-align: center;
+//  padding: 10px;
+//
+//  height: 250px;
+//  min-width: 150px;
+//  margin: 0 8px 8px 0; /* Some gutter */
+//  border: 2px solid $jason-white;
+//  background-color: $jason-blue;
+//  overflow: auto;
+//
+//  &:nth-child(odd) {
+//    width: 30%;
+//  }
+//
+//  &:nth-child(even) {
+//    width: 25%;
+//  }
+//}
+
+

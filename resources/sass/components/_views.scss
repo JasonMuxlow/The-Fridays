@@ -1,0 +1,80 @@
+/// this is teh diffrent views i have to toggle
+  .list-view {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+    height: 250px;
+    min-width: 150px;
+    margin: 0 8px 8px 0; /* Some gutter */
+    border: 2px solid $jason-white;
+    background-color: $jason-blue;
+    overflow: auto;
+    border-radius: 8px;
+    transition-duration: 2s;
+  }
+
+  .grid-view {
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+    height: 300px;
+    min-width: 150px;
+    margin: 0 8px 8px 0; /* Some gutter */
+    background-color: $jason-blue;
+    border: 2px solid $jason-white;
+    color: $jason-white;
+    overflow: auto;
+    border-radius: 8px;
+    transition-duration: 2s;
+
+  }
+
+  .masonry-view {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+    height: 250px;
+    min-width: 150px;
+    margin: 0 8px 8px 0; /* Some gutter */
+    border: 2px solid $jason-white;
+    background-color: $jason-blue;
+    overflow: auto;
+    border-radius: 8px;
+    transition-duration:2s;
+
+    &:nth-child(odd) {
+      width: 20%;
+    }
+
+    &:nth-child(even) {
+      width: 30%;
+    }
+  }
+
+.masonry_img {
+  overflow: hidden;
+}
+
+.pagination-position {
+  justify-content: center;
+}
+
+.match-page-view{
+  text-align: center;
+  padding: 10px;
+  flex: auto;
+  width:100%;
+  height:75vh;
+  background-color: $jason-blue;
+  border: 2px solid $jason-white;
+  color: $jason-white;
+  overflow: auto;
+  margin: 2%;
+}
+
+

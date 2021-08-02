@@ -1,0 +1,77 @@
+.team-frame{
+    text-align: center;
+    flex: auto;
+    height: 400px;
+    margin: 2%; /* Some gutter */
+    border: 2px solid $jason-white;
+    color: $jason-white;
+    text-decoration: none;
+    text-stroke: 1px $jason-blue;
+    overflow: hidden;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+// had to have individual frames as i had diffrent backgrounds per team
+
+.team-frame-cod{
+    @extend .team-frame;
+    background-image: url("../../../public/images/_cod-team-wallpaper.jpeg");
+}
+.team-frame-lol{
+    @extend .team-frame;
+    background-image: url("../../../public/images/_lol-team-wallpaper.png");
+}
+.team-frame-dota{
+    @extend .team-frame;
+    background-image: url("../../../public/images/_dota2-team-background.jpeg");
+}
+.team-frame-creators{
+    @extend .team-frame;
+    background-image: url("../../../public/images/_content-team-wallpaper.jpeg");
+}
+.team-frame-csgo{
+    @extend .team-frame;
+    background-image: url("../../../public/images/_csgo-team-background.jpeg");
+}
+.team-frame-valorant{
+    @extend .team-frame;
+    background-image: url("../../../public/images/_valorant-team-wallpaper.png");
+}
+
+.team-players{
+    color: $jason-blue;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    &:hover .table-team-players{
+        display: table;
+
+    }
+
+}
+
+.table-team-players{
+    text-align: center;
+    color: $jason-white;
+    display: none;
+    width: 100%;
+    height: 90%;
+    background: $jason-black;
+    opacity: 80%;
+}
+
+.table-team-players:hover{
+    filter: grayscale(50%);
+}
+
+.showTable{
+    display: table  !important;
+}
+
+
+

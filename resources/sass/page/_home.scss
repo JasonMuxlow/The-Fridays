@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.carousel-inner {
+  width: 100% ;
+  height: 70vh;
+}
+
+.home-view{
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+    height: 350px;
+    min-width: 150px;
+    background-color: $jason-blue;
+    border: 2px solid $jason-white;
+    color: $jason-white;
+    overflow: auto;
+    margin-bottom: 3%;
+    border-radius: 8px;
+
+}
+//$overwatch_background: url('../../../public/images/overwatch_background1.jpeg');
+
+.fortnight-tease{
+    background-image: url("../../../public/images/_hom-fortnight-tease.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dota-qual{
+    background-image: url("../../../public/images/_dota-2-ti.jpeg");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    //i added a text stroke to try keep the theme of my page and make it readable on the background.
+    //needs -webkit as on chrome it isnt compatible
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+//// mobile view
+@media only screen and (max-width: 800px) {
+    .carousel {
+        display: none;
+    }
+}
