@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php"><img class="friday_Logo" src="assets/images/og_logo_2020.png"></a>
+        <a class="navbar-brand" href="../"><img class="friday_Logo" src="/images/og_logo_2020.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -8,13 +8,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link " href="../news.blade.php">News</a>
+                    <a class="nav-link " href="../news">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../shop.blade.php">Store</a>
+                    <a class="nav-link" href="../shop">Store</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../our_Teams.blade.php">Teams</a>
+                    <a class="nav-link" href="../our_Teams">Teams</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -22,27 +22,27 @@
                         Team pages
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="../_leagueMatches.blade.php">League Of Legends</a></li>
-                        <li><a class="dropdown-item" href="../_dotaMatches.blade.php">Dota 2</a></li>
+                        <li><a class="dropdown-item" href="../_leagueMatches">League Of Legends</a></li>
+                        <li><a class="dropdown-item" href="../_dotaMatches">Dota 2</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="../_callofdutyMatches.blade.php">Call Of Duty</a></li>
-                        <li><a class="dropdown-item" href="../_valorantMatches.blade.php">Valorant</a></li>
-                        <li><a class="dropdown-item" href="../_csgoMatches.blade.php">Counter Strike</a></li>
+                        <li><a class="dropdown-item" href="../_callofdutyMatches">Call Of Duty</a></li>
+                        <li><a class="dropdown-item" href="../_valorantMatches">Valorant</a></li>
+                        <li><a class="dropdown-item" href="../_csgoMatches">Counter Strike</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="../_creatorsPage.blade.php">Creators</a></li>
-						<li><a class="dropdown-item" href="../_jasontestzap.blade.php">test</a></li>
+                        <li><a class="dropdown-item" href="../_creatorsPage">Creators</a></li>
+						<li><a class="dropdown-item" href="../_jasontestzap">test</a></li>
 
 					</ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Matches.blade.php" tabindex="-1">Matches</a>
+                    <a class="nav-link" href="../matches" tabindex="-1">Matches</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../contact.blade.php" tabindex="-1">Contact Us</a>
+                    <a class="nav-link" href="../contact" tabindex="-1">Contact Us</a>
                 </li>
             </ul>
             <form class="d-flex">

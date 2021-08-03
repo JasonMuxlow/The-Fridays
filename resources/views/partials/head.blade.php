@@ -5,7 +5,7 @@
           integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
     <!-- App CSS -->
-    <link rel="stylesheet" href="./dist/main.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
 
     <title>
         <?php

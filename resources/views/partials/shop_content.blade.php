@@ -15,7 +15,7 @@
         <div class="jumper-item">
             <p class="card-text">jumper</p>
             <p class="card-text">£30.00</p>
-            <img src="assets/images/_store/_jumper.png " height="350px" width="250px">
+            <img src="/images/_store/_jumper.png " height="350px" width="250px">
         </div>
     </div>
 
@@ -23,7 +23,7 @@
         <div class="jumper-item">
             <p class="card-text">jumper</p>
             <p class="card-text">£30.00</p>
-            <img src="assets/images/_store/_white-jacket.png" height="350px" width="250px">
+            <img src="/images/_store/_white-jacket.png" height="350px" width="250px">
         </div>
     </div>
 
@@ -32,7 +32,7 @@
         <div class="coat-item">
             <p class="card-text">Coat</p>
             <p class="card-text">£60.00</p>
-            <img src="assets/images/_store/_jacket.png" height="350px" width="250px">
+            <img src="/images/_store/_jacket.png" height="350px" width="250px">
         </div>
     </div>
 
@@ -41,7 +41,7 @@
         <div class="jersey-item">
             <p class="card-text">Chair</p>
             <p class="card-text">£245.00</p>
-            <img src="assets/images/_store/_OG-secretlabs.png" height="350px" width="250px">
+            <img src="/images/_store/_OG-secretlabs.png" height="350px" width="250px">
         </div>
     </div>
 
@@ -49,7 +49,7 @@
         <div class="scarf-item">
             <p class="card-text">scarf</p>
             <p class="card-text">£15.00</p>
-            <img src="assets/images/_store/_scarf.png" height="350px" width="250px">
+            <img src="/images/_store/_scarf.png" height="350px" width="250px">
         </div>
     </div>
 
@@ -57,7 +57,7 @@
         <div class="phoneCase-item">
             <p class="card-text">Plush Monkey</p>
             <p class="card-text">£25.00</p>
-            <img src="assets/images/_store/_monkey.png" height="350px" width="250px">
+            <img src="/images/_store/_monkey.png" height="350px" width="250px">
         </div>
     </div>
 
@@ -65,7 +65,7 @@
         <div class="keyring-item">
             <p class="card-text">Keyring</p>
             <p class="card-text">£6.00</p>
-            <img src="assets/images/_store/_keyring.png" height="350px" width="250px">
+            <img src="/images/_store/_keyring.png" height="350px" width="250px">
         </div>
     </div>
 
@@ -73,7 +73,7 @@
         <div class="jumper-item">
             <p class="card-text">mug</p>
             <p class="card-text">£12.00</p>
-            <img src="assets/images/_store/_mug.png" height="350px" width="250px">
+            <img src="/images/_store/_mug.png" height="350px" width="250px">
         </div>
     </div>
 
@@ -81,7 +81,7 @@
         <div class="jumper-stores">
             <p class="card-text">Kap</p>
             <p class="card-text">£20</p>
-            <img src="assets/images/_store/_hat.png" height="350px" width="250px">
+            <img src="/images/_store/_hat.png" height="350px" width="250px">
         </div>
     </div>
 </div>

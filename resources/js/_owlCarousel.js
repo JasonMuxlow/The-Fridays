@@ -1,3 +1,5 @@
+import 'owl.carousel';
+
 $(document).ready(function(){
 // below is the basic owl carousel but you have to click to cycle it
 
